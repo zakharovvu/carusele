@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    transform: translateX(0px);
+    transition: 0.3s;
+}
+#div {
+    
+    overflow: hidden;
+    background:  #ccc;
+    width: 390px;
+    height: 150px;
+    border-left: 35px solid#ccc;
+    border-right: 35px solid #ccc;
+    border-radius: 35px;
+}
+
+li:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.button1 {
+    position: absolute;
+    left: 4px;
+    top: 60px;
+    font-size: 27px;
+    padding: 0;
+    border-radius: 10px;
+}
+.button2 {
+    position: absolute;
+    font-size: 27px;
+    padding: 0;
+    border-radius: 10px;
+    left: 428px;
+    top: 60px;
+}
+.vv {
+    position: relative;
+    /* margin: auto; */
+    width: 460px;
+}
